@@ -1,0 +1,43 @@
+. h1 {
+    color: red;
+    background-color: blue;
+    height: 200px;
+    width: 2000px;
+}
+
+
+.name {
+    color: red;
+}
+
+
+.blog {
+    border:1px solid red;
+border-radius: 20px;
+margin:1%;
+width:40%;
+display:inline-block;
+
+
+}
+h1{
+    text-align: center;
+} 
+
+#rakib:hover{
+    color: blue;
+}
+
+
+input:focus{
+    color: brown;
+}
+
+li:nth-child(2n+1){
+    background-color: blueviolet;
+}
+
+h1::before{
+    content: "Hello";
+    color: blue;
+}
